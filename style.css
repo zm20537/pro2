@@ -1,3 +1,14 @@
-div.icarus-logo{
-    margin:0px auto;
+body
+{
+    font-family: 'MS 明朝',
+    'Hiragino Kaku Gothic Pro',
+    sans-serif;
+    background-color: #8bff2ca9;
+    width: 900px;
+}
+.icarus-logo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+	margin-right: auto;
 }
