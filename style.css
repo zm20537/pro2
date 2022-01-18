@@ -7,9 +7,9 @@ body
     width: 2500px;
 }
 .icarus-logo{
-    width: 450px;
+    width: 400px;
     margin-top: 150px;
     margin-bottom: 150px;
-    margin-left: 400px;
-	margin-right: 400px;
+    margin-left: auto;
+	margin-right: auto;
 }
