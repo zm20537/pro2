@@ -20,19 +20,19 @@ body
     margin-right: auto;
     margin-left: auto;
 }
-.icarus-intro.arrow-r{
+#arrow-r{
     width: 100px;
     height: 200px;
     text-align: right;
     position: absolute;
 }
-.icarus-intro.arrow-l{
+#arrow-l{
     width: 100px;
     height: 200px;
     text-align: left;
     position: absolute;
 }
-.icarus-intro.explanation{
+#explanation{
     width: 450px;
     text-align: right;
     position: absolute;
