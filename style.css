@@ -23,17 +23,26 @@ body
 #arrow-r{
     width: 100px;
     height: 200px;
-    text-align: right;
+    top: 200px;
+    left: 30px;
     position: absolute;
 }
 #arrow-l{
     width: 100px;
     height: 200px;
-    text-align: left;
+    top: 200px;
+    right: 30px;
+    position: absolute;
+}
+#intro-img{
+    width: 500px;
+    top: 30px;
+    left: 100px;
     position: absolute;
 }
 #explanation{
-    width: 450px;
-    text-align: right;
+    width: 400px;
+    top: 30px;
+    right: 450px;
     position: absolute;
 }
