@@ -6,6 +6,12 @@ body
     background-color: #f0eeeeea;
     width: 1300px;
 }
+
+/*
+divの領域を重ねるときの配置方法
+https://naifix.com/relative-absolute/#CSS_position
+*/
+
 .icarus-logo{
     text-align: center;
     margin-top: 50px;
@@ -16,26 +22,26 @@ body
     /*position: fixed;
     positon: absolute;*/
     width: 1000px;
-    height: 1000px;
+    height: 1500px;
     margin-right: auto;
     margin-left: auto;
 }
 #arrow-r{
-    width: 100px;
-    height: 200px;
+    width: 30px;
+    height: 100px;
     top: 200px;
-    left: 30px;
+    right: 0px;
     position: absolute;
 }
 #arrow-l{
-    width: 100px;
-    height: 200px;
+    width: 30px;
+    height: 100px;
     top: 200px;
-    right: 30px;
+    left: 0px;
     position: absolute;
 }
 #intro-img{
-    width: 500px;
+    width: 400px;
     top: 30px;
     left: 100px;
     position: absolute;
@@ -43,6 +49,6 @@ body
 #explanation{
     width: 400px;
     top: 30px;
-    right: 450px;
+    left: 450px;
     position: absolute;
 }
