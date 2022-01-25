@@ -11,15 +11,20 @@ body
 divの領域を重ねるときの配置方法
 https://naifix.com/relative-absolute/#CSS_position
 */
-
-.icarus-logo{
-    text-align: center;
+.icarus-top{
     width: 1300px;
     height: 140px;
     margin-top: 50px;
     margin-bottom: 50px;
     position: relative;
-    z-index: 1;
+}
+#logo{
+    text-align: center;
+    width: 1300px;
+    height: 140px;
+    position: absolute;
+    top: 0px;
+    z-index: 2;
 }
 #logo-back{
     width: 1300px;
@@ -28,6 +33,7 @@ https://naifix.com/relative-absolute/#CSS_position
     left: 0px;
     background-color: rgb(0, 255, 255);
     position: absolute;
+    z-index: 1;
 }
 .icarus-intro{
     position: relative;
