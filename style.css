@@ -3,7 +3,7 @@ body
     font-family: 'MS 明朝',
     'Hiragino Kaku Gothic Pro',
     sans-serif;
-    background-color: #f0eeeeea;
+    background-color: #fcfcfcea;
     width: 1300px;
 }
 
@@ -11,7 +11,12 @@ body
 divの領域を重ねるときの配置方法
 https://naifix.com/relative-absolute/#CSS_position
 */
-
+.logo-back{
+    margin-top: 50px;
+    width: 1000px;
+    height: 135px;
+    background-color: rgb(0, 255, 255);
+}
 .icarus-logo{
     text-align: center;
     margin-top: 50px;
@@ -41,9 +46,10 @@ https://naifix.com/relative-absolute/#CSS_position
     position: absolute;
 }
 #intro-img{
-    width: 400px;
-    top: 30px;
-    left: 300px;
+    width: 600px;
+    height: 360px;
+    top: 50px;
+    left: 200px;
     position: absolute;
 }
 #explanation{
