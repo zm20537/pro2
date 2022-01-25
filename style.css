@@ -43,13 +43,13 @@ https://naifix.com/relative-absolute/#CSS_position
 #intro-img{
     width: 400px;
     top: 30px;
-    left: 100px;
+    left: 300px;
     position: absolute;
 }
 #explanation{
     width: 400px;
-    top: 30px;
-    left: 450px;
+    top: 350px;
+    left: 300px;
     position: absolute;
 }
 /*画像を上段、説明を下段に持ってくる
