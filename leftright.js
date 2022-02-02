@@ -1,6 +1,6 @@
 function introimg()
 {
-    if(document.getelementbyid('imagec').value== 'src="./intro/bankin.jpg"')
+    if(document.getElementById('imagec').value== 'src="./intro/bankin.jpg"')
     {
         document.getElementById('imagec').src='./intro/calorie.jpg';
     }
