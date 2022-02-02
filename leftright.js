@@ -4,7 +4,7 @@ function introimg()
     {
         document.getElementById('imagec').src='./intro/calorie.jpg';
     }
-    else if(document.getElementById('imagec').getAttribute('src') == './intro/calorie.png')
+    else if(document.getElementById('imagec').getAttribute('src') == './intro/calorie.jpg')
     {
         document.getElementById('imagec').src='./intro/eating-snow.png';
     }
