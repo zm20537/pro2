@@ -21,3 +21,6 @@ function introimg()
         document.getElementById('imagec').src='./intro/bankin.jpg';
     }
 }
+function asd(){
+    alert ('test');
+}
