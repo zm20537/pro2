@@ -20,3 +20,4 @@ function introimg(){
         document.getElementById('imagec').src='./intro/bankin.jpg';
     }
 }
+
