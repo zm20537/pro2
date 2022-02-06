@@ -53,11 +53,8 @@ function introimgb(){
 }
 function expc()
 {
-    if(document.getElementById('imagec').getAttribute('src') == '.intro-image/bankin.jpg')
-    {
-        document.getElementById('setsumei').innerHTML ='まず、プロスペクター（探索者）のあなたは、酸素、水、食料を確保する手段を手に入れなければいけません。それら3つは、時間の経過に伴い徐々に減ります。0になってしまうと、HPが徐々に減り始めます。そのため、「弓」と「矢」を作り、狩りができる状態まで進めましょう。';
-    }
-    else if(document.getElementById('imagec').getAttribute('src') == './intro-image/calorie.jpg')
+    
+    if(document.getElementById('imagec').getAttribute('src') == './intro-image/calorie.jpg')
     {
         document.getElementById('setsumei').innerHTML ='次に、夕方（18時）になると日が沈み、一気に暗くなります。猛獣は、狂暴になり、あなたは痛い目に遭うでしょう。そのため、動物に対して、剝ぎ取りを行い「皮」を集め寝袋を作りましょう。「寝袋」と「焚火」があなたを暗闇の悪夢から救うでしょう。（洞窟か家の中に限る）';
     }
@@ -73,8 +70,12 @@ function expc()
     {
         document.getElementById('setsumei').innerHTML ='作るだけではなく、実は、プロスペクターの能力や武器が与える効果を向上させることもできます。どこを伸ばすかはあなたの自由です。ただし、「」を早めにとることをお勧めします。これは、あなたを不意打ちから守ってくれます。';
     }
-    else
+    else if(document.getElementById('imagec').getAttribute('src') == './intro-image/pkon.jpg')
     {
         document.getElementById('setsumei').innerHTML ='果たしてあなたは、無事に探索をし、「ポッド」に乗り込み帰還できるでしょうか。（デスペナルティは、現レベルで入手した経験値のリセットとインベントリ内のアイテムのドロップ。レベルは下がらない）';
+    }
+    else
+    {
+        document.getElementById('setsumei').innerHTML ='まず、プロスペクター（探索者）のあなたは、酸素、水、食料を確保する手段を手に入れなければいけません。それら3つは、時間の経過に伴い徐々に減ります。0になってしまうと、HPが徐々に減り始めます。そのため、「弓」と「矢」を作り、狩りができる状態まで進めましょう。';
     }
 }
