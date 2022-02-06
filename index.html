@@ -12,7 +12,7 @@
         
         <div class="icarus-top">
             <div id="logo">
-                <a href="https://store.steampowered.com/app/1149460/ICARUS/?l=japanese" target="_blank"><img src="./image/icarus-logo.jpg" alt="イカロス_ロゴ" width="300px" height="135px"></a>
+                <a href="https://store.steampowered.com/app/1149460/ICARUS/?l=japanese" target="_blank"><img src="./top-image/icarus-logo.jpg" alt="イカロス_ロゴ" width="300px" height="135px"></a>
             </div>
             <div id="logo-back"></div>
         </div>
@@ -23,19 +23,19 @@
         <div class="index">
             <div id="index-back"></div>
             <div id="index-menu">
-                <img src="./image/menu.jpg" alt="目次" width="100px" height="50px">
+                <img src="./top-image/menu.jpg" alt="目次" width="100px" height="50px">
             </div>
         </div>
         <!--icarus紹介部分(変わる)-->
         <div class="icarus-intro">
             <div id="arrow-r">
-                <button type="submit"><img src="./image/arrow-r.png" alt="右矢印" width="30px" height="100px" onclick="introimgn();expc();"></button>
+                <button type="submit"><img src="./top-image/arrow-r.png" alt="右矢印" width="30px" height="100px" onclick="introimgn();expc();"></button>
             </div>
             <div id="arrow-l">
-                <button type="submit"><img src="./image/arrow-l.png" alt="右矢印" width="30px" height="100px" onclick="introimgb();expc();"></button>
+                <button type="submit"><img src="./top-image/arrow-l.png" alt="右矢印" width="30px" height="100px" onclick="introimgb();expc();"></button>
             </div>
             <div id="intro-img">
-                <img src="./intro/bankin.jpg" alt="紹介画像" id="imagec" width="600px" height="360px">
+                <img src="./intro-image/bankin.jpg" alt="紹介画像" id="imagec" width="600px" height="360px">
             </div>
             <div id="explanation">
                 <p id="setsumei">
@@ -87,8 +87,8 @@
                         <p>リフレッシュレートは、pcのスペックに関係なく、高い方が快適に使える</p>
                         <form name="form1">
                             <div id="marubatsu">
-                                <button type="submit"><img src="./image/maru.png" alt="まる" width="30px" height="30px" onclick="toi1r();"></button>
-                                <button type="submit"><img src="./image/batsu.png" alt="ばつ" width="30px" height="30px" onclick="toi1f();"></button>
+                                <button type="submit"><img src="./question/maru.png" alt="まる" width="30px" height="30px" onclick="toi1r();"></button>
+                                <button type="submit"><img src="./question/batsu.png" alt="ばつ" width="30px" height="30px" onclick="toi1f();"></button>
                             </div>
                             <p id="kaisetsu"><input type="button" value="解説" onclick="Commentary1();"></p>
                         </form>
@@ -97,8 +97,10 @@
                 <div id="toi2">
                     <h2>問2-「CPU」に関して</h2>
                     <div id="toi2text">
-                        <p>pcのスペック一覧に「i7」と書かれていた。他のi7のpcより安かったため、これを買うことにした。<br>
-                            上記の行動をとってはいけません。このpcを買うにあたり必要な情報はなんでしょうか。（CPUの〇〇）</p>
+                        <p>
+                            pcのスペック一覧に「i7」と書かれていた。他のi7のpcより安かったため、これを買うことにした。<br>
+                            上記の行動をとってはいけません。このpcを買うにあたり必要な情報はなんでしょうか。（CPUの〇〇）
+                        </p>
                         <form name="form2">
                             <div id="mondai2">
                                 <p>
@@ -107,6 +109,39 @@
                                 </p>
                             </div>
                             <p id="kaisetsu2"><input type="button" value="解説" onclick="Commentary2();"></p>
+                        </form>
+                    </div>
+                </div>
+                <div id="toi3">
+                    <h2>問3-「メモリ」に関して</h2>
+                    <div id="toi3text">
+                        <p>
+                            メモリは、多いければ多い方がいい。
+                        </p>
+                        <form name="form1">
+                            <div id="marubatsu2">
+                                <button type="submit"><img src="./question/maru.png" alt="まる" width="30px" height="30px" onclick="toi1r();"></button>
+                                <button type="submit"><img src="./question/batsu.png" alt="ばつ" width="30px" height="30px" onclick="toi1f();"></button>
+                            </div>
+                            <p id="kaisetsu3"><input type="button" value="解説" onclick="Commentary3();"></p>
+                        </form>
+                    </div>
+                </div>
+                <div id="toi4">
+                    <h2>問4-「ストレージ」に関して</h2>
+                    <div id="toi4text">
+                        <p>
+                            筆者は、メインでSSD1TBとサブでHDD2TB使用している。では、SSDの主なメリットとデメリットは、なにか。
+                        </p>
+                        <form name="form2">
+                            <div id="mondai2">
+                                <p>
+                                    メリット（読み込み～が～）<input type="text" id="answer2">
+                                    デメリット（漢字2字）<input type="text" id="answer3">
+                                    <input type="button" value="解答" onclick="toi4();">
+                                </p>
+                            </div>
+                            <p id="kaisetsu4"><input type="button" value="解説" onclick="Commentary4();"></p>
                         </form>
                     </div>
                 </div>
