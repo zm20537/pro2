@@ -45,7 +45,7 @@ function introimgb(){
 }
 function expc()
 {
-    if(document.getElementById('imagec').getAttribute('src') == './intro-image/bankin.jpg')
+    if(document.getElementById('imagec').getAttribute('src') == '.intro-image/bankin.jpg')
     {
         document.getElementById('setsumei').innerHTML ='まず、プロスペクター（探索者）のあなたは、酸素、水、食料を確保する手段を手に入れなければいけません。それら3つは、時間の経過に伴い徐々に減ります。0になってしまうと、HPが徐々に減り始めます。そのため、「弓」と「矢」を作り、狩りができる状態まで進めましょう。';
     }

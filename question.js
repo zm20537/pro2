@@ -25,3 +25,34 @@ function Commentary2(){
 function Commentary3(){
     document.getElementById('kaisetsu3').innerHTML='ゲームをする程度であれば、16GBあれば十分なことが多いです。（使用率が8割超えることはほとんどない）動画編集（書き出し）やDTMをする人は、32GBあった方がいいです。'
 }
+
+function toi4()
+{
+    if(document.getElementById('answer2').value=='読み込み速度が速い')
+    {
+        alert('あたり！');
+    }
+    else if(document.getElementById('answer2').value=='読み込み速度がはやい')
+    {
+        alert('あたり！');
+    }
+    else if(document.getElementById('answer2').value=='読み込み速度が高速')
+    {
+        alert('あたり！');
+    }
+    else if(document.getElementById('answer3').value=='高価')
+    {
+        alert('あたり！');
+    }
+    else if(document.getElementById('answer3').value=='高値')
+    {
+        alert('あたり！');
+    }
+    else
+    {
+        alert('はずれー');
+    }
+}
+function Commentary4(){
+    document.getElementById('kaisetsu4').innerHTML='SSDはHDDに比べて、かなり速いため、デスクトップであるのならば必ずSSDにした方が良い。また、筆者のようにゲームを10個以上遊びたい人は、予算が許すのであれば2TBをお勧めします。（現在の空き容量：40GB/1TB）'
+}
