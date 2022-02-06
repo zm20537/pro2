@@ -18,57 +18,6 @@
         </div>
 
 
-        <!--概要-->
-        <div class="gaiyou">
-            <div id="about-game">
-                <h1>ゲームについて</h1>
-                <p>
-                    このゲームは、「Icarus」という最大8人で遊ぶことができるサバイバルゲームです。悪天候や獰猛な肉食獣に抗いながら、ミッションをこなし生き延びてください。
-                </p>
-            </div>
-            <div id="caution">
-                <h1>注意事項</h1>
-                <p>
-                    このゲームは、パソコンやPS4,5で遊ぶことができます。ただし、パソコンで遊ぶ場合はハイエンドモデルを推奨します。<br>
-                    もし、ゲーミングPCを買ったことがなかったり、私のPCのスペックを見てどのくらいのレベルなのかイマイチわからない方は、
-                    詳しい人に聞いたり、違いを比較している動画などを参考にしてPCを購入してみてください。<a href="index.html#pointfor">購入に当たってのポイント</a><br>
-                    また、誰かに質問をする際は自分のやりたいことや求めている性能を明確に説明してからするべきです。
-                </p>
-            </div>
-            <div id="spec">
-                <h1>スペック</h1>
-                <p>
-                    PX279 Prime（ips式 fps:240hz 応答速度:1ms 27インチ）<br>
-                    i7 11700 @2.5GHz<br>
-                    RTX 3070 8GB GDDR6<br>
-                    16GB（8GB×2）<br>
-                    NVMe 1TB<br>
-                    HDD 2TB<br>
-                    Enhance 800w 80plus Titanium
-                </p>
-            </div>
-            <div id="point">
-                <h2 id="pointfor">購入に当たってのポイント</id></h2>
-                    <p>
-                        これから出題する問題に全問正解できない場合は、そのことに関してもう一度調べてみてください。
-                    </p>
-                    <div id="toi1">
-                        <h2>問1-「モニター」に関して</h2>
-                        <div id="toi1text">
-                            <p>リフレッシュレートは、pcのスペックに関係なく、高い方が快適に使える</p>
-                            <form name="form1">
-                                <div id="marubatsu">
-                                    <button type="submit"><img src="./image/maru.png" alt="まる" id="marubatsu" width="30px" height="30px" onclick="toi1r();"></button>
-                                    <button type="submit"><img src="./image/batsu.png" alt="ばつ" id="marubatsu" width="30px" height="30px" onclick="toi1f();"></button>
-                                </div>
-                                <p><input type="button" value="解説" onclick="Commentary1();"></p>
-                            </form>
-                        </div>
-                    </div>
-            </div>
-        </div>
-
-
         <!--遊び方-->
         <!--ここは、適当でいい-->
         <div class="index">
@@ -96,5 +45,74 @@
                 </p>
             </div>
         </div>
+
+
+        <!--概要-->
+        <div class="gaiyou">
+            <div id="about-game">
+                <h1>ゲームについて</h1>
+                <p>
+                    このゲームは、「Icarus」という最大8人で遊ぶことができるサバイバルゲームです。悪天候や獰猛な肉食獣に抗いながら、ミッションをこなし生き延びてください。
+                </p>
+            </div>
+            <div id="caution">
+                <h1>注意事項</h1>
+                <p>
+                    このゲームは、パソコンやPS4,5で遊ぶことができます。ただし、パソコンで遊ぶ場合はハイエンドモデルを推奨します。<br>
+                    もし、ゲーミングPCを買ったことがなかったり、私のPCのスペックを見てどのくらいのレベルなのかイマイチわからない方は、
+                    詳しい人に聞いたり、違いを比較している動画などを参考にしてPCを購入してみてください。<a href="index.html#pointfor">購入に当たってのポイント</a><br>
+                    また、誰かに質問をする際は自分のやりたいことや求めている性能を明確に説明してからするべきです。
+                </p>
+            </div>
+            <div id="spec">
+                <h1>スペック</h1>
+                <p>
+                    PX279 Prime（ips式 fps:240hz 応答速度:1ms 27インチ）<br>
+                    i7-11700 @2.5GHz<br>
+                    RTX 3070 8GB GDDR6<br>
+                    16GB（8GB×2）<br>
+                    NVMe 1TB<br>
+                    HDD 2TB<br>
+                    Enhance 800w 80plus Titanium
+                </p>
+            </div>
+            <div id="point">
+                <h2 id="pointfor">購入に当たってのポイント</id></h2>
+                    <p>
+                        これから出題する問題に全問正解できない場合は、そのことに関してもう一度調べてみてください。
+                    </p>
+                <div id="toi1">
+                    <h2>問1-「モニター」に関して</h2>
+                    <div id="toi1text">
+                        <p>リフレッシュレートは、pcのスペックに関係なく、高い方が快適に使える</p>
+                        <form name="form1">
+                            <div id="marubatsu">
+                                <button type="submit"><img src="./image/maru.png" alt="まる" width="30px" height="30px" onclick="toi1r();"></button>
+                                <button type="submit"><img src="./image/batsu.png" alt="ばつ" width="30px" height="30px" onclick="toi1f();"></button>
+                            </div>
+                            <p><input type="button" value="解説" id="kaisetsu" onclick="Commentary1();"></p>
+                        </form>
+                    </div>
+                </div>
+                <div id="toi2">
+                    <h2>問2-「CPU」に関して</h2>
+                    <div id="toi2text">
+                        <p>pcのスペック一覧に「i7」と書かれていた。他のi7のpcより安かったため、これを買うことにした。<br>
+                            上記の行動をとってはいけません。このpcを買うにあたり必要な情報はなんでしょうか。（CPUの〇〇）</p>
+                        <form name="form2">
+                            <div id="mondai2">
+                                <p>
+                                    漢字2文字:<input type="text" id="answer1">
+                                    <input type="button" value="解答" onclick="toi2();">
+                                </p>
+                            </div>
+                            <p><input type="button" value="解説" id="kaisetsu2" onclick="Commentary2();"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </body>
 </html>
