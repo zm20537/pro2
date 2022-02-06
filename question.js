@@ -1,8 +1,8 @@
 function toi1r(){
-    alert('あたり！');
+    alert('はずれー');
 }
 function toi1f(){
-    alert('はずれー');
+    alert('あたり！');
 }
 
 function Commentary1(){
