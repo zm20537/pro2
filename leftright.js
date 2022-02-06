@@ -16,6 +16,10 @@ function introimgn()
     {
         document.getElementById('imagec').src='./intro-image/ohuro.png';
     }
+    else if(document.getElementById('imagec').getAttribute('src') == './intro-image/ohuro.png')
+    {
+        document.getElementById('imagec').src='./intro-image/pkon.jpg';
+    }
     else
     {
         document.getElementById('imagec').src='./intro-image/bankin.jpg';
@@ -23,6 +27,10 @@ function introimgn()
 }
 function introimgb(){
     if(document.getElementById('imagec').getAttribute('src') == './intro-image/bankin.jpg')
+    {
+        document.getElementById('imagec').src='./intro-image/pkon.jpg';
+    }
+    else if(document.getElementById('imagec').getAttribute('src') == './intro-image/pkon.jpg')
     {
         document.getElementById('imagec').src='./intro-image/ohuro.png';
     }
@@ -34,9 +42,9 @@ function introimgb(){
     {
         document.getElementById('imagec').src='./intro-image/eating-snow.png';
     }
-    else if(document.getElementById('imagec').getAttribute('src') == './intro-image/eating-snow.png')
+    else if(document.getElementById('imagec').getAttribute('src')=='./intro-image/eating-snow.png')
     {
-        document.getElementById('imagec').src='./intro-image/calorie.jpg';
+        document.getElementById('imagec').src='.intro-image/calorie.jpg';
     }
     else
     {
