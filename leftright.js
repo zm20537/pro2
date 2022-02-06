@@ -61,7 +61,7 @@ function expc()
     {
         document.getElementById('setsumei').innerHTML ='レベルが上がると様々な物が作れるようになります。（テックポイント）製作物の性能は基本的に、わら＜木＜石＜骨＜鉄＜銅、のようになっています。また、さらに上級の金属も存在します。';
     }
-    else if(document.getElementById('imagec').getAttribute('src') == './intro-image/nobose.png')
+    else if(document.getElementById('imagec').getAttribute('src') == './intro-image/ohuro.png')
     {
         document.getElementById('setsumei').innerHTML ='作るだけではなく、実は、プロスペクターの能力や武器が与える効果を向上させることもできます。どこを伸ばすかはあなたの自由です。ただし、「」を早めにとることをお勧めします。これは、あなたを不意打ちから守ってくれます。';
     }
