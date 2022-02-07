@@ -141,6 +141,9 @@ textarea{
     text-align: center;
     background-color: rgb(172, 222, 255);
 }
+#toi1text{
+    width: 600px;
+}
 #toi2{
     width: 600px;
     text-align: center;
