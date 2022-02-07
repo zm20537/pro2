@@ -45,7 +45,7 @@ https://creive.me/archives/14324/
 .icarus-intro{
     position: relative;
     width: 1000px;
-    height: 1500px;
+    height: 700px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -87,8 +87,37 @@ https://creive.me/archives/14324/
 }
 
 
+.gaiyou{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#about-game{
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#caution{
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#spec{
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 #point{
     text-align: center;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .text{
     font-size: 18px;
@@ -99,8 +128,12 @@ textarea{
     font-weight: bold;
 }
 #toi1{
-    width: 550px;
+    width: 600px;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 #dai1{
     padding: 1px 1px 1px 20px;
@@ -109,7 +142,15 @@ textarea{
     background-color: rgb(172, 222, 255);
 }
 #toi2{
-    width: 550px;
+    width: 600px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#toi2{
+    width: 600px;
     text-align: center;
 }
 #dai2{
@@ -119,22 +160,38 @@ textarea{
     background-color: rgba(172, 222, 255);
 }
 #toi3{
-    width: 550px;
+    width: 600px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#toi3{
+    width: 600px;
     text-align: center;
 }
 #dai3{
     padding: 1px 1px 1px 20px;
-    width: 400px;
+    width: 600px;
     text-align: center;
     background-color: rgb(172, 222, 255);
 }
 #toi4{
-    width: 550px;
+    width: 600px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#toi4{
+    width: 600px;
     text-align: center;
 }
 #dai4{
     padding: 1px 1px 1px 20px;
-    width: 400px;
+    width: 600px;
     text-align: center;
     background-color: rgb(172, 222, 255);
 }
