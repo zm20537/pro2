@@ -11,7 +11,7 @@ body
 divの領域を重ねるときの配置方法(div classの下はdiv id。cssは、親が.、子が#)
 https://naifix.com/relative-absolute/#CSS_position
 
-z-index: 数字でできる。ただし、同じ階層に限る。
+最前面への表示は、z-index: 数字でできる。小さい順に最背面。ただし、同じ階層に限る。
 https://creive.me/archives/14324/
 */
 
@@ -85,4 +85,27 @@ https://creive.me/archives/14324/
     left: 200px;
     position: absolute;
 }
-/*画像を上段、説明を下段に持ってくる
+
+.text{
+    font-size: 18px;
+}
+textarea{
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+}
+.toi1{
+    padding: 1px 1px 1px 20px;
+    width: 400px;
+    background-color: rgb(71, 174, 243);
+}
+.toi2{
+    padding: 1px 1px 1px 20px;
+    width: 400px;
+    background-color: rgba(71, 174, 243);
+}
+.toi3{
+    padding: 1px 1px 1px 20px;
+    width: 400px;
+    background-color: rgb(71, 174, 243);
+}
