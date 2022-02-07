@@ -108,17 +108,29 @@ textarea{
     text-align: center;
     background-color: rgb(172, 222, 255);
 }
+#toi2{
+    width: 550px;
+    text-align: center;
+}
 #dai2{
     padding: 1px 1px 1px 20px;
     width: 600px;
     text-align: center;
     background-color: rgba(172, 222, 255);
 }
+#toi3{
+    width: 550px;
+    text-align: center;
+}
 #dai3{
     padding: 1px 1px 1px 20px;
     width: 400px;
     text-align: center;
     background-color: rgb(172, 222, 255);
+}
+#toi4{
+    width: 550px;
+    text-align: center;
 }
 #dai4{
     padding: 1px 1px 1px 20px;
