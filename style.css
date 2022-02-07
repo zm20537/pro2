@@ -129,7 +129,6 @@ textarea{
 }
 #toi1{
     width: 600px;
-    text-align: center;
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
@@ -141,20 +140,12 @@ textarea{
     text-align: center;
     background-color: rgb(172, 222, 255);
 }
-#toi1text{
-    width: 600px;
-}
 #toi2{
     width: 600px;
-    text-align: center;
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-}
-#toi2{
-    width: 600px;
-    text-align: center;
 }
 #dai2{
     padding: 1px 1px 1px 20px;
