@@ -114,10 +114,15 @@ https://creive.me/archives/14324/
     margin-bottom: 50px;
 }
 #point{
-    text-align: center;
     width: 1000px;
     margin-right: auto;
     margin-left: auto;
+}
+#pmidashi{
+    text-align: center;
+}
+#buyp{
+    background-color: #ff5252ea;
 }
 .text{
     font-size: 18px;
@@ -140,6 +145,10 @@ textarea{
     text-align: center;
     background-color: rgb(172, 222, 255);
 }
+#marubatsu{
+    text-align: center;
+}
+
 #toi2{
     width: 600px;
     margin-right: auto;
@@ -153,17 +162,13 @@ textarea{
     text-align: center;
     background-color: rgba(172, 222, 255);
 }
+
 #toi3{
     width: 600px;
-    text-align: center;
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-}
-#toi3{
-    width: 600px;
-    text-align: center;
 }
 #dai3{
     padding: 1px 1px 1px 20px;
@@ -171,17 +176,15 @@ textarea{
     text-align: center;
     background-color: rgb(172, 222, 255);
 }
+#marubatsu2{
+    text-align: center;
+}
 #toi4{
     width: 600px;
-    text-align: center;
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-}
-#toi4{
-    width: 600px;
-    text-align: center;
 }
 #dai4{
     padding: 1px 1px 1px 20px;
