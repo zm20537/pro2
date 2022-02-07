@@ -86,6 +86,10 @@ https://creive.me/archives/14324/
     position: absolute;
 }
 
+
+#point{
+    text-align: center;
+}
 .text{
     font-size: 18px;
 }
@@ -94,18 +98,31 @@ textarea{
     font-size: 15px;
     font-weight: bold;
 }
-.toi1{
-    padding: 1px 1px 1px 20px;
-    width: 400px;
-    background-color: rgb(71, 174, 243);
+#toi1{
+    width: 550px;
+    text-align: center;
 }
-.toi2{
+#dai1{
     padding: 1px 1px 1px 20px;
-    width: 400px;
-    background-color: rgba(71, 174, 243);
+    width: 600px;
+    text-align: center;
+    background-color: rgb(172, 222, 255);
 }
-.toi3{
+#dai2{
+    padding: 1px 1px 1px 20px;
+    width: 600px;
+    text-align: center;
+    background-color: rgba(172, 222, 255);
+}
+#dai3{
     padding: 1px 1px 1px 20px;
     width: 400px;
-    background-color: rgb(71, 174, 243);
+    text-align: center;
+    background-color: rgb(172, 222, 255);
+}
+#dai4{
+    padding: 1px 1px 1px 20px;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(172, 222, 255);
 }
