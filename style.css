@@ -119,9 +119,13 @@ https://creive.me/archives/14324/
     margin-left: auto;
 }
 #pmidashi{
-    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 #buyp{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     background-color: #ff5252ea;
 }
 .text{
