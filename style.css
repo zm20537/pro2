@@ -40,46 +40,50 @@ https://creive.me/archives/14324/
 }
 .index{
     width: 1300px;
-    height: 100px;
+    height: 80px;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: auto;
     margin-left: auto;
     position: relative;
 }
-#index-back{
-    width: 1300px;
-    height: 50px;
-    top: 0px;
-    left: 0px;
-    background-color: rgb(194, 129, 255);
-    position: absolute;
-    z-index: 1;
-}
 #index-p{
-    width: 100px;
-    height: 50px;
-    top: 25px;
-    left: 200px;
+    width: 170px;
+    height: 80px;
+    top: 0px;
+    left: 100px;
     position: absolute;
-    z-index: 2;
 }
 #index-g{
-    width: 100px;
-    height: 50px;
-    top: 25px;
-    left: 400px;
+    width: 170px;
+    height: 80px;
+    top: 0px;
+    left: 300px;
     position: absolute;
-    z-index: 2;
 }
 #index-bp{
-    width: 100px;
-    height: 25px;
+    width: 170px;
+    height: 80px;
     top: 0px;
-    left: 600px;
+    left: 500px;
     position: absolute;
-    z-index: 2;
 }
+#index-q{
+    width: 170px;
+    height: 80px;
+    top: 0px;
+    left: 700px;
+    position: absolute;
+}
+#index-introv{
+    width: 170px;
+    height: 80px;
+    top: 0px;
+    left: 900px;
+    position: absolute;
+}
+
+
 .icarus-intro{
     position: relative;
     width: 1000px;
