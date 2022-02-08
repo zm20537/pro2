@@ -132,17 +132,13 @@ https://creive.me/archives/14324/
 }
 
 
+#注意事項{
+    text-align: center;
+}
 .gaiyou{
     width: 1000px;
     margin-right: auto;
     margin-left: auto;
-}
-#about-game{
-    width: 700px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 #caution{
     width: 700px;
@@ -150,6 +146,9 @@ https://creive.me/archives/14324/
     margin-left: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+#mspec{
+    text-align: center;
 }
 #spec{
     width: 700px;
@@ -167,7 +166,7 @@ https://creive.me/archives/14324/
     margin-right: auto;
     margin-left: auto;
 }
-#buyp{
+#購入時のポイント{
     text-align: center;
     margin-right: auto;
     margin-left: auto;
