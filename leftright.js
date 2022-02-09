@@ -124,7 +124,6 @@ function introimgb(){
     
 function expc()
 {
-    
     if(document.getElementById('imagec').getAttribute('src') == './intro-image/sunset.png')
     {
         document.getElementById('setsumei').innerHTML ='次に、夕方（18時）になると日が沈み、一気に暗くなります。猛獣は、狂暴になり、あなたは痛い目に遭うでしょう。そのため、動物に対して、剝ぎ取りを行い「皮」を集め寝袋を作りましょう。「寝袋」と「焚火」があなたを暗闇の悪夢から救うでしょう。（洞窟か家の中に限る）';
