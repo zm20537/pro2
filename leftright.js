@@ -61,8 +61,8 @@ function introimgn()
 
 
 
-function introimgb(){
-    {
+function introimgb()
+{
         if(document.getElementById('imagec').getAttribute('src') == './intro-image/ishi.png')
         {
             document.getElementById('imagec').src='./intro-image/dethpenalty.png';
@@ -118,7 +118,7 @@ function introimgb(){
         {
             document.getElementById('imagec').src='./intro-image/ishi.png';
         }
-    }
+}
 
 
     
@@ -128,6 +128,16 @@ function expc()
     {
         document.getElementById('setsumei').innerHTML ='次に、夕方（18時）になると日が沈み、一気に暗くなります。猛獣は、狂暴になり、あなたは痛い目に遭うでしょう。そのため、動物に対して、剝ぎ取りを行い「皮」を集め寝袋を作りましょう。「寝袋」と「焚火」があなたを暗闇の悪夢から救うでしょう。（洞窟か家の中に限る）';
     }
+    else if(document.getElementById('imagec').getAttribute('src') == './intro-image/wolf.png')
+    {
+        document.getElementById('setsumei').innerHTML ='次に、夕方（18時）になると日が沈み、一気に暗くなります。猛獣は、狂暴になり、あなたは痛い目に遭うでしょう。そのため、動物に対して、剝ぎ取りを行い「皮」を集め寝袋を作りましょう。「寝袋」と「焚火」があなたを暗闇の悪夢から救うでしょう。（洞窟か家の中に限る）';
+    }
+    else if(document.getElementById('imagec').getAttribute('src') == './intro-image/house.png')
+    {
+        document.getElementById('setsumei').innerHTML ='次に、夕方（18時）になると日が沈み、一気に暗くなります。猛獣は、狂暴になり、あなたは痛い目に遭うでしょう。そのため、動物に対して、剝ぎ取りを行い「皮」を集め寝袋を作りましょう。「寝袋」と「焚火」があなたを暗闇の悪夢から救うでしょう。（洞窟か家の中に限る）';
+    }
+
+
     else if(document.getElementById('imagec').getAttribute('src') == './intro-image/tenkou.png')
     {
         document.getElementById('setsumei').innerHTML ='あなたがいる星は、天候が悪くなりやすいです。天候が悪い中では、経験値が貯まりにくいし、移動しにくいです。すぐに家や洞窟に逃げましょう。また、家は風雨や雷に打たれると壊れてしまいます。家の耐久地が0になる前に、「リペアハンマー」で直しましょう。';
@@ -136,10 +146,18 @@ function expc()
     {
         document.getElementById('setsumei').innerHTML ='レベルが上がると様々な物が作れるようになります。（テックポイント）製作物の性能は基本的に、わら＜木＜石＜骨＜鉄＜銅、のようになっています。また、さらに上級の金属も存在します。';
     }
+
+
     else if(document.getElementById('imagec').getAttribute('src') == './intro-image/talent.png')
     {
         document.getElementById('setsumei').innerHTML ='作るだけではなく、実は、「タレント」からプロスペクターの能力や武器が与える効果を向上させることもできます。どこを伸ばすかはあなたの自由です。ただし、「中型動物感知」を早めにとることをお勧めします。これは、動物をハイライトしてくれ、不意打ちから守ってくれます。';
     }
+    else if(document.getElementById('imagec').getAttribute('src') == './intro-image/highlight.png')
+    {
+        document.getElementById('setsumei').innerHTML ='作るだけではなく、実は、「タレント」からプロスペクターの能力や武器が与える効果を向上させることもできます。どこを伸ばすかはあなたの自由です。ただし、「中型動物感知」を早めにとることをお勧めします。これは、動物をハイライトしてくれ、不意打ちから守ってくれます。';
+    }
+
+
     else if(document.getElementById('imagec').getAttribute('src') == './intro-image/dethpenalty.png')
     {
         document.getElementById('setsumei').innerHTML ='果たしてあなたは、無事に探索をし、「ポッド」に乗り込み帰還できるでしょうか。（デスペナルティは、現レベルで入手した経験値のリセットとインベントリ内のアイテムのドロップ。レベルは下がらない）';
