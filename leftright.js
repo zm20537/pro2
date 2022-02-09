@@ -144,7 +144,7 @@ function expc()
     }
     else if(document.getElementById('imagec').getAttribute('src') == './intro-image/techtree.png')
     {
-        document.getElementById('setsumei').innerHTML ='レベルが上がると様々な物が作れるようになります。（テックポイント）製作物の性能は基本的に、わら＜木＜石＜骨＜鉄＜銅、のようになっています。また、さらに上級の金属も存在します。';
+        document.getElementById('setsumei').innerHTML ='レベルが上がると様々な物が作れるようになります。製作物の性能は基本的に、わら＜木＜石＜骨＜鉄＜銅、のようになっています。また、さらに上級の金属も存在します。';
     }
 
 
