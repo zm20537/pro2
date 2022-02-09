@@ -29,6 +29,14 @@ https://creive.me/archives/14324/
     top: 0px;
     z-index: 2;
 }
+#hansoku{
+    width: 200px;
+    height: 100px;
+    color: #ffffffea;
+    position: absolute;
+    top: 15px;
+    z-index: 2;
+}
 #logo-back{
     width: 1300px;
     height: 135px;
