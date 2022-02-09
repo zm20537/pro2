@@ -68,7 +68,7 @@ function expc()
     }
     else if(document.getElementById('imagec').getAttribute('src') == './intro-image/ohuro.png')
     {
-        document.getElementById('setsumei').innerHTML ='作るだけではなく、実は、プロスペクターの能力や武器が与える効果を向上させることもできます。どこを伸ばすかはあなたの自由です。ただし、「」を早めにとることをお勧めします。これは、あなたを不意打ちから守ってくれます。';
+        document.getElementById('setsumei').innerHTML ='作るだけではなく、実は、「タレント」からプロスペクターの能力や武器が与える効果を向上させることもできます。どこを伸ばすかはあなたの自由です。ただし、「中型動物感知」を早めにとることをお勧めします。これは、動物をハイライトしてくれ、不意打ちから守ってくれます。';
     }
     else if(document.getElementById('imagec').getAttribute('src') == './intro-image/pkon.jpg')
     {
