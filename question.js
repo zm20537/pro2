@@ -23,7 +23,7 @@ function Commentary2(){
 }
 
 function Commentary3(){
-    document.getElementById('kaisetsu3').innerHTML='ゲームをする程度であれば、16GBあれば十分なことが多いです。（使用率が8割超えることはほとんどない）動画編集（書き出し）やDTMをする人は、32GBあった方がいいです。'
+    document.getElementById('kaisetsu3').innerHTML='ゲームをする程度であれば、16GBあれば十分なことが多いです。※Icarusみたいなオープンワールド系は、32GB推奨。また、動画編集やDTMをする人は、32GBあった方がいいです。'
 }
 
 function toi4()
