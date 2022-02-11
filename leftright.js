@@ -1,10 +1,10 @@
 function wmoment(){
-    alert('画像の読み込みに時間がかかり、画像が変わらないことがあります。矢印を押しても変わらない場合は、少し待ってからもう一度押してください。')
-    document.getElementById('wmoment').src='./top-image/loading.gif';
+    alert('画像の読み込みに時間がかかり、画像が変わらないことがあります。完了まで少々お待ちください。また、「イカロスの遊び方」の矢印はゆっくりクリックしてください。')
+    document.getElementById('loading').src='./top-image/loading.gif';
     setTimeout("alredy()",5000);
 }
 function alredy(){
-    document.getElementById('wmoment').src='./top-image/alredy.jpg';
+    document.getElementById('loading').src='./top-image/alredy.jpg';
 }
 
 function introimgn()

@@ -93,7 +93,11 @@ https://creive.me/archives/14324/
 }
 
 
-
+.wmoment{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
 .icarus-intro{
     position: relative;
     width: 1000px;
