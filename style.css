@@ -19,6 +19,8 @@ https://creive.me/archives/14324/
     width: 1300px;
     height: 135px;
     margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
     position: relative;
 }
 #logo{
