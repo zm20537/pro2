@@ -1,3 +1,12 @@
+function wmoment(){
+    alert('画像の読み込みに時間がかかり、画像が変わらないことがあります。矢印を押しても変わらない場合は、少し待ってからもう一度押してください。')
+    document.getElementById('wmoment').src='./top-image/loading.gif';
+    setTimeout("alredy()",5000);
+}
+function alredy(){
+    document.getElementById('wmoment').src='./top-image/alredy.jpg';
+}
+
 function introimgn()
 {
     if(document.getElementById('imagec').getAttribute('src') == './intro-image/ishi.png')

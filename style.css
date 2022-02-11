@@ -93,15 +93,16 @@ https://creive.me/archives/14324/
 }
 
 
-#遊び方{
-    text-align: center;
-}
+
 .icarus-intro{
     position: relative;
     width: 1000px;
     height: 700px;
     margin-right: auto;
     margin-left: auto;
+}
+#遊び方{
+    text-align: center;
 }
 #arrow-r{
     width: 30px;
@@ -174,6 +175,7 @@ https://creive.me/archives/14324/
 }
 #購入時のポイント{
     text-align: center;
+    margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
     background-color: #fffb00ea;
@@ -196,6 +198,7 @@ textarea{
 #dai1{
     padding: 1px 1px 1px 20px;
     width: 600px;
+    margin-top: 50px;
     text-align: center;
     background-color: rgb(172, 222, 255);
 }
@@ -245,4 +248,16 @@ textarea{
     width: 600px;
     text-align: center;
     background-color: rgb(172, 222, 255);
+}
+.introv{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#紹介動画{
+    text-align: center;
+    margin-top: 100px;
+}
+#midashi2{
+    background-color: #90f023;
 }
